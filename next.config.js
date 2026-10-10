@@ -4,6 +4,7 @@ const path = require('path');
 const nextConfig = {
   output: 'export',
   basePath: '/Skill-Swap-System',
+  assetPrefix: '/Skill-Swap-System/', // <-- Added this to ensure CSS/JS load correctly
   eslint: {
     ignoreDuringBuilds: true,
   },
